@@ -1,0 +1,74 @@
+version: "3.8"
+
+services:
+  # ============================================
+  # CHROMA - Vector Database MCP Server
+  # ============================================
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: mcp-chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE
+    restart: unless-stopped
+    networks:
+      - mcp-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/heartbeat"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ============================================
+  # MEMORY - Knowledge Graph MCP Server
+  # ============================================
+  memory:
+    image: mcp/memory:latest
+    container_name: mcp-memory
+    ports:
+      - "3001:3000"
+    volumes:
+      - memory_data:/app/data
+    environment:
+      - MEMORY_FILE_PATH=/app/data/memory.json
+    restart: unless-stopped
+
+  # ============================================
+  # SEQUENTIAL THINKING - Reasoning MCP Server
+  # ============================================
+  sequential-thinking:
+    image: mcp/sequential-thinking:latest
+    container_name: mcp-sequential-thinking
+    ports:
+      - "3002:3000"
+    restart: unless-stopped
+
+  # ============================================
+  # TIME - Timezone MCP Server
+  # ============================================
+  time:
+    image: mcp/time:latest
+    container_name: mcp-time
+    ports:
+      - "3003:3000"
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    restart: unless-stopped
+
+  # ============================================
+  # SQLITE - Database MCP Server
+  # ============================================
+  sqlite:
+    image: mcp/sqlite:latest
+    container_name: sqlite
+    ports:
+      - "3004:3000"
+    volumes:
+      - sqlite_data:/app/data
+    environment:
+      - SQLITE_DB_PATH=/app/data/database.db
+    restart: unless-stopped
