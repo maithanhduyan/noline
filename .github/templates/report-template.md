@@ -4,7 +4,7 @@
 
 ---
 
-**Session ID:** {BF-YYYY-MM-DD-XXX}
+**Session ID:** {NoLine-YYYY-MM-DD-XXX}
 **Ngày tạo:** {DD/MM/YYYY, HH:MM}
 **Hệ thống:** NoLine - Phân tích Dư luận
 **Độ tin cậy:** ⭐⭐⭐⭐ ({XX}%)
@@ -339,7 +339,7 @@
 ---
 
 **Báo cáo được tạo bởi:** NoLine Analysis System
-**Session ID:** {BF-YYYY-MM-DD-XXX}
+**Session ID:** {NoLine-YYYY-MM-DD-XXX}
 **Thời gian hoàn thành:** {DD/MM/YYYY, HH:MM}
 
 ---

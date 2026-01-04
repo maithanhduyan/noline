@@ -143,7 +143,7 @@ mcp_sqlite_append_insight(
 ```json
 {
   "agent": "media",
-  "session_id": "BF-2026-01-03-001",
+  "session_id": "NoLine-2026-01-03-001",
   "topic": "Chủ đề",
   "findings": {
     "media_overview": {
@@ -174,7 +174,7 @@ mcp_sqlite_append_insight(
     "trend_trajectory": "rising"
   },
   "confidence_score": 8.0,
-  "chroma_collection": "media_BF-2026-01-03-001"
+  "chroma_collection": "media_NoLine-2026-01-03-001"
 }
 ```
 

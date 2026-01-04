@@ -18,7 +18,7 @@ Template này được thiết kế để đảm bảo mọi báo cáo phân tí
 
 ## [TIÊU ĐỀ]
 
-**Session ID:** BF-YYYY-MM-DD-XXX
+**Session ID:** NoLine-YYYY-MM-DD-XXX
 **Ngày tạo:** DD/MM/YYYY, HH:MM
 **Hệ thống:** NoLine - Phân tích Dư luận
 **Độ tin cậy:** ⭐⭐⭐⭐ (XX%)
@@ -26,7 +26,7 @@ Template này được thiết kế để đảm bảo mọi báo cáo phân tí
 
 **Lưu ý:**
 
-- Session ID format: `BF-YYYY-MM-DD-XXX` (BF = Brief/Báo cáo)
+- Session ID format: `NoLine-YYYY-MM-DD-XXX` (NoLine = Brief/Báo cáo)
 - Độ tin cậy: Đánh giá từ 1-5 sao dựa trên chất lượng dữ liệu
 
 ### 2. Tóm tắt Điều hành (Bắt buộc)
@@ -215,7 +215,7 @@ Dùng cho:
 ```
 - Topic: [Chủ đề báo cáo]
 - Timeframe: [Giai đoạn phân tích]
-- Session ID: [Generate theo format BF-YYYY-MM-DD-XXX]
+- Session ID: [Generate theo format NoLine-YYYY-MM-DD-XXX]
 - Confidence: [Đánh giá độ tin cậy dữ liệu]
 ```
 

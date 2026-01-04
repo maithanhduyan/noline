@@ -4,7 +4,7 @@
 
 ---
 
-**Session ID:** BF-2026-01-03-001
+**Session ID:** NoLine-2026-01-03-001
 **Ngày tạo:** 03/01/2026, 20:06
 **Hệ thống:** NoLine - Phân tích Dư luận
 **Độ tin cậy:** ⭐⭐⭐⭐ (85%)
@@ -336,7 +336,7 @@ Enterprises (non-IT):  ███░░░░░░░░░░░ 10%
 ---
 
 **Báo cáo được tạo bởi:** NoLine Analysis System
-**Session ID:** BF-2026-01-03-001
+**Session ID:** NoLine-2026-01-03-001
 **Thời gian hoàn thành:** 03/01/2026, 20:06
 
 ---

@@ -117,7 +117,7 @@ mcp_sqlite_append_insight(
 ```json
 {
   "agent": "query",
-  "session_id": "BF-2026-01-03-001",
+  "session_id": "NoLine-2026-01-03-001",
   "topic": "Chủ đề",
   "findings": {
     "summary": "Tóm tắt sự kiện chính",
@@ -134,7 +134,7 @@ mcp_sqlite_append_insight(
     ]
   },
   "confidence_score": 8.5,
-  "chroma_collection": "news_BF-2026-01-03-001",
+  "chroma_collection": "news_NoLine-2026-01-03-001",
   "memory_entities": ["Entity1", "Entity2"]
 }
 ```

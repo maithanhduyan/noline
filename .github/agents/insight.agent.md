@@ -143,7 +143,7 @@ mcp_sqlite_append_insight(
 ```json
 {
   "agent": "insight",
-  "session_id": "BF-2026-01-03-001",
+  "session_id": "NoLine-2026-01-03-001",
   "topic": "Chủ đề",
   "findings": {
     "sentiment_overview": {
@@ -179,7 +179,7 @@ mcp_sqlite_append_insight(
     "sentiment_trajectory": "worsening"
   },
   "confidence_score": 7.5,
-  "chroma_collection": "insight_BF-2026-01-03-001"
+  "chroma_collection": "insight_NoLine-2026-01-03-001"
 }
 ```
 

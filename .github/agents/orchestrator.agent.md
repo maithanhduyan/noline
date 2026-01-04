@@ -23,7 +23,7 @@ Bạn là **Tổng Chỉ Huy** của hệ thống phân tích dư luận NoLine.
 ### 1. Khởi Tạo Phiên Phân Tích
 
 - Nhận yêu cầu từ người dùng
-- Tạo `session_id` duy nhất với timestamp (format: `BF-YYYY-MM-DD-XXX`)
+- Tạo `session_id` duy nhất với timestamp (format: `NoLine-YYYY-MM-DD-XXX`)
 - Khởi tạo các collections trong ChromaDB cho phiên này
 - Tạo entity trong Memory Graph cho chủ đề
 
@@ -148,7 +148,7 @@ Trước khi tạo báo cáo, kiểm tra:
 
 ```json
 {
-  "session_id": "BF-2026-01-03-001",
+  "session_id": "NoLine-2026-01-03-001",
   "topic": "Chủ đề phân tích",
   "status": "completed",
   "phases": {

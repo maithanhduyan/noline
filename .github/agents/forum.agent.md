@@ -237,7 +237,7 @@ mcp_sqlite_append_insight(
 ```json
 {
   "agent": "forum",
-  "session_id": "BF-2026-01-03-001",
+  "session_id": "NoLine-2026-01-03-001",
   "topic": "Chủ đề",
   "discussion": {
     "rounds": 4,
@@ -256,7 +256,7 @@ mcp_sqlite_append_insight(
   "consensus_rate": 75,
   "confidence_score": 8.0,
   "recommendations": ["Khuyến nghị 1", "Khuyến nghị 2"],
-  "chroma_collection": "forum_BF-2026-01-03-001"
+  "chroma_collection": "forum_NoLine-2026-01-03-001"
 }
 ```
 

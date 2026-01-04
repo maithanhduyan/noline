@@ -6,7 +6,7 @@
 
 | Thông tin       | Chi tiết                                               |
 | --------------- | ------------------------------------------------------ |
-| **Session ID**  | BF-2026-01-03-002                                      |
+| **Session ID**  | NoLine-2026-01-03-002                                  |
 | **Ngày tạo**    | 03/01/2026, 22:23                                      |
 | **Hệ thống**    | NoLine - Phân tích Dư luận                             |
 | **Độ tin cậy**  | ⭐⭐⭐⭐ (85%)                                         |
@@ -539,5 +539,5 @@ Ngành Kiến trúc Việt Nam đang ở **ngã ba đường**. Những cải c�
 ---
 
 _Báo cáo được tạo bởi NoLine - Hệ thống Phân tích Dư luận_
-_Session ID: BF-2026-01-03-002_
+_Session ID: NoLine-2026-01-03-002_
 _Thời gian hoàn thành: 03/01/2026, 22:23_

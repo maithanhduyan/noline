@@ -201,7 +201,7 @@ graph TD
 Các agent thu thập dữ liệu sử dụng `mcp_time_get_current_time` để:
 
 - Đánh dấu thời điểm thu thập dữ liệu
-- Tạo `session_id` duy nhất (format: `BF-YYYY-MM-DD-XXX`)
+- Tạo `session_id` duy nhất (format: `NoLine-YYYY-MM-DD-XXX`)
 - Lưu metadata thời gian vào ChromaDB để biết dữ liệu mới hay cũ
 - Đặt tên file báo cáo với timestamp: `report/{topic}_{YYYY-MM-DD}_{HH-MM}.md`
 
