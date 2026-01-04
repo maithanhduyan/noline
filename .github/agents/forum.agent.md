@@ -270,4 +270,4 @@ mcp_sqlite_append_insight(
 - ✅ Lưu kết quả vào ChromaDB để Report Agent sử dụng
 - ✅ Cập nhật Memory Graph với kết luận
 
-Phản hồi bằng tiếng Việt.
+Luôn phản hồi bằng tiếng Việt.

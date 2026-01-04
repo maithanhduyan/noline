@@ -200,4 +200,4 @@ Khi phân tích media, cung cấp:
 - ✅ Tham chiếu context từ Query Agent qua ChromaDB
 - ✅ Lưu tất cả findings để các agent khác truy vấn
 
-Phản hồi bằng tiếng Việt.
+Luôn phản hồi bằng tiếng Việt.

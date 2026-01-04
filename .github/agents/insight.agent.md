@@ -206,4 +206,4 @@ Khi phân tích, cung cấp:
 - ✅ Lưu findings vào ChromaDB để Forum Agent tổng hợp
 - ✅ Ghi cảnh báo quan trọng vào SQLite
 
-Phản hồi bằng tiếng Việt.
+Luôn phản hồi bằng tiếng Việt.

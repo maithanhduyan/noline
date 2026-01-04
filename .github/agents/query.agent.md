@@ -161,4 +161,4 @@ Khi phân tích, cung cấp:
 - ✅ Lưu tất cả findings vào ChromaDB để các agent khác truy vấn
 - ✅ Cập nhật Memory Graph với entities và relations
 
-Phản hồi bằng tiếng Việt.
+Luôn phản hồi bằng tiếng Việt.

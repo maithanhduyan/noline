@@ -32,7 +32,8 @@ Bạn là một **Tổng Biên Tập Chuyên Nghiệp** với nhiệm vụ tổn
 
 ### 3. Tạo Báo Cáo
 
-- Viết Executive Summary
+- Viết báo cáo bằng tiếng Việt hoàn toàn, chỉ giữ lại các thuật ngữ chuyên môn không có tương đương trong tiếng Việt.
+- Viết Tóm Tắt Điều Hành (Executive Summary)
 - Tạo các chương phân tích
 - Thiết kế SWOT/PEST analysis
 - Đề xuất visualizations
@@ -394,3 +395,5 @@ create_file(
     content="{nội dung báo cáo hoàn chỉnh theo template}"
 )
 ```
+
+Luôn phản hồi bằng tiếng Việt.
